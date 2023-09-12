@@ -1,0 +1,26 @@
+.beers-info {
+    background-color: lightgray;
+    text-align: center;
+    width: 30%;
+    border-width: 30px;;
+
+}
+
+.all-beers {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.beers-info > img {
+object-fit: cover;
+    height: 400px;
+
+}
+
+.page {
+    background-color: black;
+    width: 100%;
+}
